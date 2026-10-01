@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asisten AI untuk UMKM</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="brand">
+            <h1>Asisten AI untuk UMKM</h1>
+            <p>Ini web dari ijul</p>
+        </div>
+        <nav class="nav" aria-label="Navigasi utama">
+            <a href="#profile">Profil</a>
+            <a href="#formdata">Formulir</a>
+        </nav>
+    </header>
+    <main class="page-shell">
+        <div class="hero">
+            <section class="profile" id="profile" aria-labelledby="profile-title">
+                <h2 id="profile-title">Profil</h2>
+                <p>Hi! Ini web sederhana buatan Ijul.</p>
+            </section>
+            <section class="profile testimonial" aria-labelledby="testimonial-title">
+                <h2 id="testimonial-title">Testimoni (Contoh aja sih, diminta mas kiki hehe)</h2>
+                <div class="testimonial-grid">
+                    <img src="ijul.jpg" alt="IJUL GANTENGGG">
+                    <blockquote>“ganteng banget yakk”</blockquote>
+                </div>
+            </section>
+            <section class="form-panel" aria-labelledby="form-title">
+                <h2 id="form-title">Profile Form</h2>
+                <form id="formdata" action="#">
+                    <label for="nama">Masukkan nama Anda:
+                        <input type="text" id="nama" name="nama">
+                    </label>
+                    <fieldset id="jeniskelamin">
+                        <legend>Jenis kelamin</legend>
+                        <label for="pria"><input type="radio" name="jenis-kelamin" id="pria" value="pria"> Pria</label>
+                        <label for="wanita"><input type="radio" name="jenis-kelamin" id="wanita" value="wanita"> Wanita</label>
+                    </fieldset>
+                    <button class="button" type="submit">Kirim</button>
+                </form>
+            </section>
+        </div>
+    </main>
+</body>
+</html>
